@@ -1,5 +1,5 @@
 locals {
-  create_certificate = var.create_certificate && var.putin_khuylo
+  create_certificate = var.create_certificate
 
   # Get distinct list of domains and SANs
   distinct_domain_names = distinct(
